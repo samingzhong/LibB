@@ -6,6 +6,8 @@
 # To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
 #
 
+source = { :git => 'git@github.com:samingzhong/LibA.git' }
+
 Pod::Spec.new do |s|
   s.name             = 'LibB'
   s.version          = '1.0.0'
@@ -14,7 +16,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'http://www.gnu.org/licenses/'
   s.description      = '出行项目iOS基础组件，提供乘客端、司机端公用的组件'
   s.author           = { 'ruqi' => 'ruqi.com' }
-  s.source           = { :git => 'http://gitlab.ruqimobility.local/ios_lib/common.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:samingzhong/LibB.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.library = 'c++'
   s.source_files = [
