@@ -17,6 +17,8 @@
     
     ClassA *a = [ClassA new];
     [a methodA];
+    
+    LibAClassC *c = [[LibAClassC alloc] init];
 }
 
 @end
