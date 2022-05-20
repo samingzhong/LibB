@@ -10,7 +10,7 @@ source = { :git => 'git@github.com:samingzhong/LibA.git' }
 
 Pod::Spec.new do |s|
   s.name             = 'LibB'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.license          = { :type => "Copyright", :text => "Copyright © 2016 ruqichuxing. All rights reserved." }
   s.summary          = '出行项目iOS基础组件'
   s.homepage         = 'http://www.gnu.org/licenses/'
