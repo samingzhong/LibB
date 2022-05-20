@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
     'LibB/Classes/LibB.h',
     'LibB/Classes/*.{h,m}',
   ]
-  s.dependency 'LibA' '1.0.3'
+  s.dependency 'LibA' '1.0.2'
   # s.dependency 'AFNetworking'
   # s.subspec 'GACEventReportUtil' do |ss|
   #   ss.source_files = 'GACEventReportUtil/*.{h,m}'
